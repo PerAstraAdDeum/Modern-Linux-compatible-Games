@@ -17,6 +17,7 @@ This is a list of Windows games that you can play on Linux without the need for 
 | Control Ultimate Edition | GOG | Heroic Games Launcher  | GE-Proton-Latest | yes |
 | Cyberpunk 2077 | GOG | Heroic Games Launcher  | GE-Proton-Latest | yes |
 | Crysis®   | GOG | Heroic Games Launcher  | GE-Proton-Latest | yes | Uses the C1-Launcher. Warhead and Wars should work with it as well. |
+| Dishonored 2 | GOG | Heroic Games Launcher  | GE-Proton-Latest | yes |
 | Dorfromantik   | GOG | Heroic Games Launcher  | GE-Proton-Latest | yes |
 | Factorio   | GOG | Heroic Games Launcher  | GE-Proton-Latest | yes | Also has a native Linux port. |
 | Metro 2033 Redux | GOG | Heroic Games Launcher  | GE-Proton-Latest | yes |
