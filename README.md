@@ -22,6 +22,11 @@ Note: All of the following games were tested with `ia32_emulation=0` Kernel argu
 | The Witcher 3: Wild Hunt - Complete Edition   | GOG | Heroic Games Launcher  | GE-Proton-Latest | yes | You may need to launch the game exe directly. |
 | Warhammer 40,000: Dawn of War - Definitive Edition   | GOG | Heroic Games Launcher  | GE-Proton-Latest | yes |
 
+# What about Steam?
+
+From what I know, Steam on Linux requires 32-Bit. That, however, may change in the future [(Source)](https://www.gamingonlinux.com/2025/11/valve-put-up-a-new-steam-linux-runtime-4-0-with-a-move-towards-64-bit/). A 64-bit client is already available for MacOS [(Source)](https://help.steampowered.com/en/faqs/view/5E0D-522A-4E62-B6EF).
+
+
 
 
 
