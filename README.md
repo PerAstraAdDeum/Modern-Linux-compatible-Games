@@ -21,6 +21,7 @@ This is a list of Windows games that you can play on Linux without the need for 
 | Factorio   | GOG | Heroic Games Launcher  | GE-Proton-Latest | yes | Also has a native Linux port. |
 | Metro 2033 Redux | GOG | Heroic Games Launcher  | GE-Proton-Latest | yes |
 | Metro Exodus | GOG | Heroic Games Launcher  | GE-Proton-Latest | yes |
+| Metro: Last Light Redux | GOG | Heroic Games Launcher  | GE-Proton-Latest | yes |
 | Middle-earth™: Shadow of Mordor™ Game of the Year Edition   | GOG | Heroic Games Launcher  | GE-Proton-Latest | yes |
 | No Man's Sky | GOG | Heroic Games Launcher  | GE-Proton-Latest | yes |
 | Project Zomboid | GOG | Heroic Games Launcher  | GE-Proton-Latest | yes | Need to manually select x64 executable. Also has a native Linux port. |
