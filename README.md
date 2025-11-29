@@ -6,7 +6,7 @@ A curated list of games that run on Linux and neither require 32-bit compatibili
 
 With the advent of DXVK, Proton and Gaming Distros like CachyOS and Bazzite, Gaming on Linux has reached an all-time-high.
 
-This is a list of Windows games that you can play on Linux without the need for XWayland or 32-bit dependencies. All of the following games were tested with `ia32_emulation=0` Kernel argument. They were installed using Heroic Games Launcher's download system, which unlike GOG's offline installers does not require 32-bit emulation. To run them both `Enable Wine-Wayland(Experimental) (Wine version needs to support it)` and `Enable WoW64 (Experimental)` were enabled in Heroic's Wine settings.  
+This is a list of Windows games that you can play on Linux without the need for XWayland or 32-bit dependencies. All of the following games were tested with `ia32_emulation=0` Kernel argument. They were installed using Heroic Games Launcher's download system, which unlike GOG's offline installers does not require 32-bit emulation. To run them, both `Enable Wine-Wayland(Experimental) (Wine version needs to support it)` and `Enable WoW64 (Experimental)` were enabled in Heroic's Wine settings.  
 
 ## The List
 
@@ -18,6 +18,7 @@ This is a list of Windows games that you can play on Linux without the need for 
 | Cyberpunk 2077 | GOG | Heroic Games Launcher  | GE-Proton-Latest | yes |
 | Crysis®   | GOG | Heroic Games Launcher  | GE-Proton-Latest | yes | Uses the C1-Launcher. Warhead and Wars should work with it as well. |
 | Dishonored 2 | GOG | Heroic Games Launcher  | GE-Proton-Latest | yes |
+| Dishonored®: Death of the Outsider™ | GOG | Heroic Games Launcher | GE-Proton-Latest | yes |
 | Dorfromantik   | GOG | Heroic Games Launcher  | GE-Proton-Latest | yes |
 | Factorio   | GOG | Heroic Games Launcher  | GE-Proton-Latest | yes | Also has a native Linux port. |
 | Metro 2033 Redux | GOG | Heroic Games Launcher  | GE-Proton-Latest | yes |
@@ -26,6 +27,9 @@ This is a list of Windows games that you can play on Linux without the need for 
 | Middle-earth™: Shadow of Mordor™ Game of the Year Edition   | GOG | Heroic Games Launcher  | GE-Proton-Latest | yes |
 | No Man's Sky | GOG | Heroic Games Launcher  | GE-Proton-Latest | yes |
 | Project Zomboid | GOG | Heroic Games Launcher  | GE-Proton-Latest | yes | Need to manually select x64 executable. Also has a native Linux port. |
+| Quake Enhanced | GOG | Heroic Games Launcher | GE-Proton-Latest | yes |
+| Quake II | GOG | Heroic Games Launcher | GE-Proton-Latest | yes | This is the "Enhanced" version, the original is named "Quake II (Original)" on GOG. |
+| Quake II RTX | GOG | Heroic Games Launcher | GE-Proton-Latest | yes |
 | Rise of the Tomb Raider: 20 Year Celebration   | GOG | Heroic Games Launcher  | GE-Proton-Latest | yes |
 | S.T.A.L.K.E.R.: Call of Prypiat - Enhanced Edition   | GOG | Heroic Games Launcher  | GE-Proton-Latest | yes |
 | S.T.A.L.K.E.R.: Clear Sky - Enhanced Edition | GOG | Heroic Games Launcher  | GE-Proton-Latest | yes |
@@ -52,7 +56,7 @@ Be advised that just because PCGamingWiki does list a 64-bit executable, that do
 
 It may also be possible that the information on the PCGamingWiki is outdated or only valid for a certain distributor. GOG for instance often incorporates fan modifications in older games as part of their GOG Preservation Program, which sometimes include FOSS engine or executable recreations that run in 64-bit.  
 
-If you're on Linux and want to check if your game is running on 64-bit, you can do so either by installing [MangoHud](https://github.com/flightlessmango/MangoHud?tab=readme-ov-file#hud-configuration) and enable the `arch` variable in the config file, which will display the architecture of the current executable on the HUD:
+If you're on Linux and want to check if your game is running on 64-bit, you can do so by installing [MangoHud](https://github.com/flightlessmango/MangoHud?tab=readme-ov-file#hud-configuration) and enable the `arch` variable in the config file, which will display the architecture of the current executable on the HUD:
 
 ![](https://github.com/user-attachments/assets/49732182-409d-4622-8983-2a5f5bc7f413)  
 *Factorio with MangoHud being enabled. Notice the lines for arch and display server.*
