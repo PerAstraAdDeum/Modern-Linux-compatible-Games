@@ -6,9 +6,13 @@ A curated list of games that run on Linux and neither require 32-bit compatibili
 
 With the advent of DXVK, Proton and Gaming Distros like CachyOS and Bazzite, Gaming on Linux has reached an all-time-high.
 
-This is a list of Windows games that you can play on Linux without the need for XWayland or 32-bit dependencies. All of the following games were tested with `ia32_emulation=0` Kernel argument. They were installed using Heroic Games Launcher's download system, which unlike GOG's offline installers does not require 32-bit emulation. To run them, both `Enable Wine-Wayland(Experimental) (Wine version needs to support it)` and `Enable WoW64 (Experimental)` were enabled in Heroic's Wine settings.  
+This is a list of Windows games that you can play on Linux without the need for XWayland or 32-bit dependencies, using compatibility tools for Wine or engine recreations.
 
-## The List
+## Playing GOG Games with Heroic Games Launcher
+
+All of the following games were tested with `ia32_emulation=0` Kernel argument. They were installed using Heroic Games Launcher's download system, which unlike GOG's offline installers does not require 32-bit emulation. To run them, both `Enable Wine-Wayland(Experimental) (Wine version needs to support it)` and `Enable WoW64 (Experimental)` were enabled in Heroic's Wine settings.  
+
+### The List
 
 | Game Name  | Platform | Tested with | DXVK/VK3D version | Runs? | Comment | 
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
@@ -41,6 +45,32 @@ This is a list of Windows games that you can play on Linux without the need for 
 | Warhammer 40,000: Boltgun | GOG | Heroic Games Launcher  | GE-Proton-Latest | yes |
 | Warhammer 40,000: Dawn of War - Definitive Edition   | GOG | Heroic Games Launcher  | GE-Proton-Latest | yes |
 
+## Playing Games with FOSS (engine) recreations
+
+If you are inclined to disable 32-bit emulation and XWayland, but still want to keep playing your favourite game, maybe you'll be lucky and find your game among any of the lists of FOSS engine recreations (Like this one [here](https://en.wikipedia.org/wiki/List_of_game_engine_recreations)). Chances are high that the new engine will support both native Wayland and 64-bit.
+
+For instance, if you'd like to keep playing Heroes of Might and Magic III, you may just install [VCMI](https://vcmi.eu/):
+
+![](https://github.com/user-attachments/assets/e035928a-27a8-4ae7-8f84-c53535e26856)
+*VCMI is a FOSS engine recreation for Heroes of Might and Magic III that runs great on modern systems.*
+
+Note that you still need to provide the original data files. For that you either need to own the original CD or have the game on GOG and download their offline installer. You don't have to install the game through wine though, you can use [innoextract](https://constexpr.org/innoextract/) which will extract the game files for you. Some projects even include `innoextract` by default. 
+
+All of the following were tested with Flathub on Fedora Atomic and meet the following requirements:
++ Do not require any other permissions other than Wayland, DRI, Pulseaudio and network for multiplayer.
++ The Flatpak is verified.
++ Does not rely on outdated runtimes.
+
+### The List
+
+| Game Name  | Re-implementation |  Runs? | Comment | 
+| ------------- | ------------- | ------------- |------------- |
+| Caesar III | [Augustus](https://flathub.org/en/apps/com.github.keriew.augustus) | yes | Can run with Pipewire instead of Pulseaudio by granting `xdg-run/pipewire-0:ro` file access. |
+| DOOM 3: BFG Edition | [RBDOOM-3-BFG](https://flathub.org/en/apps/io.github.RobertBeckebans.RBDOOM-3-BFG) | yes  |  |
+| Heroes of Might and Magic® 2: Gold | [fheroes2](https://flathub.org/en/apps/io.github.ihhub.Fheroes2) | yes  | Can run with Pipewire instead of Pulseaudio by granting `xdg-run/pipewire-0:ro` file access. |
+| Heroes of Might and Magic® 3: Complete | [VCMI](https://flathub.org/en/apps/eu.vcmi.VCMI) | yes  | Also works for Horn of the Abyss expansion. |
+| RollerCoaster Tycoon® 2: Triple Thrill Pack | [OpenRCT2](https://flathub.org/en/apps/io.openrct2.OpenRCT2) | yes | Can run with Pipewire instead of Pulseaudio by granting `xdg-run/pipewire-0:ro` file access. |
+| The Elder Scrolls III: Morrowind GOTY Edition | [OpenMW](https://flathub.org/en/apps/org.openmw.OpenMW) | yes  |  |
 
 ## How to check for compatibility
 
@@ -77,11 +107,6 @@ For already installed games you can again make use of MangoHud by setting the `d
 # My favourite game requires either 32-bit or XWayland, what should I do?
 
 Unless you have very specific reasons to force-disable both 32-bit emulation and XWayland you should simply keep them enabled. If you only care about gaming, I'd recommend not changing these at all.  
-
-If you are inclined to disable both but still want to keep playing your favourite game, maybe you'll be lucky and find your game among any of the lists of FOSS engine recreations (Like this one [here](https://en.wikipedia.org/wiki/List_of_game_engine_recreations)). Chances are high that the new engine will support both native Wayland and 64-bit. For instance, if you'd like to keep playing Heroes of Might and Magic III, you may just install [VCMI](https://vcmi.eu/):
-
-![](https://github.com/user-attachments/assets/e035928a-27a8-4ae7-8f84-c53535e26856)
-*VCMI is a FOSS engine recreation for Heroes of Might and Magic III that runs great on modern systems.*
 
 # What about Bottles, Lutris, Umu-Launcher ... ?
 
