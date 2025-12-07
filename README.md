@@ -69,7 +69,8 @@ All of the following were tested with Flathub on Fedora Atomic and meet the foll
 | Caesar III | [Augustus](https://flathub.org/en/apps/com.github.keriew.augustus) | Wayland, DRI, Pipewire |  |
 | Commander Keen (various) | [Commander Genius](https://flathub.org/en/apps/io.sourceforge.clonekeenplus) | Wayland, DRI, Pipewire, (Network) | Network permission can be used to download various freely available episodes. |
 | Diablo | [DevilutionX](https://flathub.org/en/apps/org.diasurgical.DevilutionX) | Wayland, DRI, Pulseaudio, (Network) | Network permission is required for multiplayer only. Also works with the expansion, Hellfire. |
-| DOOM 3: BFG Edition | [RBDOOM-3-BFG](https://flathub.org/en/apps/io.github.RobertBeckebans.RBDOOM-3-BFG) | Wayland, DRI, Pulseaudio, (Network)  | Network permission is required for multiplayer only. |
+| DOOM 3: BFG Edition | [Doom BFA](https://flathub.org/en/apps/io.github.maddecoder.Classic-RBDOOM-3-BFG) | Wayland, DRI, Pipewire, (Network)  | Network permission is required for multiplayer only. |
+|  | [RBDOOM-3-BFG](https://flathub.org/en/apps/io.github.RobertBeckebans.RBDOOM-3-BFG) | Wayland, DRI, Pulseaudio, (Network)  | Network permission is required for multiplayer only. |
 | Heroes of Might and Magic® 2: Gold | [fheroes2](https://flathub.org/en/apps/io.github.ihhub.Fheroes2) | Wayland, DRI, Pipewire  |  |
 | Heroes of Might and Magic® 3: Complete | [VCMI](https://flathub.org/en/apps/eu.vcmi.VCMI) | Wayland, DRI, Pipewire, (Network)  | Network permission is required for multiplayer and mod management. Also works for Horn of the Abyss expansion. |
 | STAR WARS™ Dark Forces (Classic, 1995) | [The Force Engine](https://flathub.org/en/apps/io.github.theforceengine.tfe) | Wayland, DRI, Pipewire |  |
