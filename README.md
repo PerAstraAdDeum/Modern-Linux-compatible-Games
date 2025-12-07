@@ -40,7 +40,7 @@ All of the following games were tested with `ia32_emulation=0` Kernel argument. 
 | S.T.A.L.K.E.R.: Shadow of Chornobyl - Enhanced Edition   | GOG | Heroic Games Launcher  | GE-Proton-Latest | yes |
 | Scorn   | GOG | Heroic Games Launcher  | GE-Proton-Latest | yes |
 | Shadow of the Tomb Raider: Definitive Edition   | GOG | Heroic Games Launcher  | GE-Proton-Latest | yes |
-| The Elder Scrolls V: Skyrim Special Edition   | GOG | Heroic Games Launcher  | GE-Proton-Latest | yes |  |
+| The Elder Scrolls V: Skyrim Special Edition   | GOG | Heroic Games Launcher  | GE-Proton-Latest | yes | For mod management see [LOOT](https://flathub.org/en/apps/io.github.loot.loot). |
 | The Witcher 3: Wild Hunt - Complete Edition   | GOG | Heroic Games Launcher  | GE-Proton-Latest | yes | You may need to launch the game exe directly. |
 | Warhammer 40,000: Boltgun | GOG | Heroic Games Launcher  | GE-Proton-Latest | yes |
 | Warhammer 40,000: Dawn of War - Definitive Edition   | GOG | Heroic Games Launcher  | GE-Proton-Latest | yes |
@@ -66,11 +66,16 @@ All of the following were tested with Flathub on Fedora Atomic and meet the foll
 | Game Name  | Re-implementation |  Runs? | Comment | 
 | ------------- | ------------- | ------------- |------------- |
 | Caesar III | [Augustus](https://flathub.org/en/apps/com.github.keriew.augustus) | yes | Can run with Pipewire instead of Pulseaudio by granting `xdg-run/pipewire-0:ro` file access. |
+| Commander Keen (various) | [Commander Genius](https://flathub.org/en/apps/io.sourceforge.clonekeenplus) | yes | Can run with Pipewire instead of Pulseaudio by granting `xdg-run/pipewire-0:ro` file access. |
+| Diablo | [DevilutionX](https://flathub.org/en/apps/org.diasurgical.DevilutionX) | yes | Also works with the expansion, Hellfire. |
 | DOOM 3: BFG Edition | [RBDOOM-3-BFG](https://flathub.org/en/apps/io.github.RobertBeckebans.RBDOOM-3-BFG) | yes  |  |
 | Heroes of Might and Magic® 2: Gold | [fheroes2](https://flathub.org/en/apps/io.github.ihhub.Fheroes2) | yes  | Can run with Pipewire instead of Pulseaudio by granting `xdg-run/pipewire-0:ro` file access. |
 | Heroes of Might and Magic® 3: Complete | [VCMI](https://flathub.org/en/apps/eu.vcmi.VCMI) | yes  | Also works for Horn of the Abyss expansion. |
+| STAR WARS™ Dark Forces (Classic, 1995) | [The Force Engine](https://flathub.org/en/apps/io.github.theforceengine.tfe) | yes | Can run with Pipewire instead of Pulseaudio by granting `xdg-run/pipewire-0:ro` file access. |
 | RollerCoaster Tycoon® 2: Triple Thrill Pack | [OpenRCT2](https://flathub.org/en/apps/io.openrct2.OpenRCT2) | yes | Can run with Pipewire instead of Pulseaudio by granting `xdg-run/pipewire-0:ro` file access. |
-| The Elder Scrolls III: Morrowind GOTY Edition | [OpenMW](https://flathub.org/en/apps/org.openmw.OpenMW) | yes  |  |
+| Theme Hospital | [CorsixTH](https://flathub.org/en/apps/com.corsixth.corsixth) | yes | Can run with Pipewire instead of Pulseaudio by granting `xdg-run/pipewire-0:ro` file access. |
+| The Elder Scrolls III: Morrowind GOTY Edition | [OpenMW](https://flathub.org/en/apps/org.openmw.OpenMW) | yes  | For mod management see [LOOT](https://flathub.org/en/apps/io.github.loot.loot). |
+| Various: Adventure and role-playing games | [ScummVM](https://flathub.org/en/apps/org.scummvm.ScummVM) | yes | Tested with Beneath a Steel Sky (1994). Can run with Pipewire instead of Pulseaudio by granting `xdg-run/pipewire-0:ro` file access. |
 
 ## How to check for compatibility
 
