@@ -54,28 +54,30 @@ For instance, if you'd like to keep playing Heroes of Might and Magic III, you m
 ![](https://github.com/user-attachments/assets/e035928a-27a8-4ae7-8f84-c53535e26856)
 *VCMI is a FOSS engine recreation for Heroes of Might and Magic III that runs great on modern systems.*
 
-Note that you still need to provide the original data files. For that you either need to own the original CD or have the game on GOG and download their offline installer. You don't have to install the game through wine though, you can use [innoextract](https://constexpr.org/innoextract/) which will extract the game files for you. Some projects even include `innoextract` by default. 
+Note that you still need to provide the original data files. For that you either need to own the original CD or have the game on GOG and download their offline installer. You don't have to install the game through wine though, you can use [innoextract](https://constexpr.org/innoextract/) which will extract the game files for you. Some projects even include `innoextract` by default. Also certain games can run with Pipewire instead of Pulseaudio by granting `xdg-run/pipewire-0:ro` file access.
 
 All of the following were tested with Flathub on Fedora Atomic and meet the following requirements:
 + Do not require any other permissions other than Wayland, DRI, Pulseaudio and network for multiplayer.
 + The Flatpak is verified.
 + Does not rely on outdated runtimes.
 
+
 ### The List
 
-| Game Name  | Re-implementation |  Runs? | Comment | 
-| ------------- | ------------- | ------------- |------------- |
-| Caesar III | [Augustus](https://flathub.org/en/apps/com.github.keriew.augustus) | yes | Can run with Pipewire instead of Pulseaudio by granting `xdg-run/pipewire-0:ro` file access. |
-| Commander Keen (various) | [Commander Genius](https://flathub.org/en/apps/io.sourceforge.clonekeenplus) | yes | Can run with Pipewire instead of Pulseaudio by granting `xdg-run/pipewire-0:ro` file access. |
-| Diablo | [DevilutionX](https://flathub.org/en/apps/org.diasurgical.DevilutionX) | yes | Also works with the expansion, Hellfire. |
-| DOOM 3: BFG Edition | [RBDOOM-3-BFG](https://flathub.org/en/apps/io.github.RobertBeckebans.RBDOOM-3-BFG) | yes  |  |
-| Heroes of Might and Magic® 2: Gold | [fheroes2](https://flathub.org/en/apps/io.github.ihhub.Fheroes2) | yes  | Can run with Pipewire instead of Pulseaudio by granting `xdg-run/pipewire-0:ro` file access. |
-| Heroes of Might and Magic® 3: Complete | [VCMI](https://flathub.org/en/apps/eu.vcmi.VCMI) | yes  | Also works for Horn of the Abyss expansion. |
-| STAR WARS™ Dark Forces (Classic, 1995) | [The Force Engine](https://flathub.org/en/apps/io.github.theforceengine.tfe) | yes | Can run with Pipewire instead of Pulseaudio by granting `xdg-run/pipewire-0:ro` file access. |
-| RollerCoaster Tycoon® 2: Triple Thrill Pack | [OpenRCT2](https://flathub.org/en/apps/io.openrct2.OpenRCT2) | yes | Can run with Pipewire instead of Pulseaudio by granting `xdg-run/pipewire-0:ro` file access. |
-| Theme Hospital | [CorsixTH](https://flathub.org/en/apps/com.corsixth.corsixth) | yes | Can run with Pipewire instead of Pulseaudio by granting `xdg-run/pipewire-0:ro` file access. |
-| The Elder Scrolls III: Morrowind GOTY Edition | [OpenMW](https://flathub.org/en/apps/org.openmw.OpenMW) | yes  | For mod management see [LOOT](https://flathub.org/en/apps/io.github.loot.loot). |
-| Various: Adventure and role-playing games | [ScummVM](https://flathub.org/en/apps/org.scummvm.ScummVM) | yes | Tested with Beneath a Steel Sky (1994). Can run with Pipewire instead of Pulseaudio by granting `xdg-run/pipewire-0:ro` file access. |
+| Game Name  | Re-implementation |  Minimal set of permissions | Comment | 
+| ------------- | ------------- | -------------  | ------------- |
+| Caesar III | [Augustus](https://flathub.org/en/apps/com.github.keriew.augustus) | Wayland, DRI, Pipewire |  |
+| Commander Keen (various) | [Commander Genius](https://flathub.org/en/apps/io.sourceforge.clonekeenplus) | Wayland, DRI, Pipewire, (Network) | Network permission can be used to download various freely available episodes. |
+| Diablo | [DevilutionX](https://flathub.org/en/apps/org.diasurgical.DevilutionX) | Wayland, DRI, Pulseaudio, (Network) | Network permission is required for multiplayer only. Also works with the expansion, Hellfire. |
+| DOOM 3: BFG Edition | [RBDOOM-3-BFG](https://flathub.org/en/apps/io.github.RobertBeckebans.RBDOOM-3-BFG) | Wayland, DRI, Pulseaudio, (Network)  | Network permission is required for multiplayer only. |
+| Heroes of Might and Magic® 2: Gold | [fheroes2](https://flathub.org/en/apps/io.github.ihhub.Fheroes2) | Wayland, DRI, Pipewire  |  |
+| Heroes of Might and Magic® 3: Complete | [VCMI](https://flathub.org/en/apps/eu.vcmi.VCMI) | Wayland, DRI, Pipewire, (Network)  | Network permission is required for multiplayer and mod management. Also works for Horn of the Abyss expansion. |
+| STAR WARS™ Dark Forces (Classic, 1995) | [The Force Engine](https://flathub.org/en/apps/io.github.theforceengine.tfe) | Wayland, DRI, Pipewire |  |
+| RollerCoaster Tycoon® 2: Triple Thrill Pack | [OpenRCT2](https://flathub.org/en/apps/io.openrct2.OpenRCT2) | Wayland, DRI, Pipewire, (Network) | Network permission is required for multiplayer only.  |
+| Theme Hospital | [CorsixTH](https://flathub.org/en/apps/com.corsixth.corsixth) | Wayland, DRI, Pipewire |  |
+| The Elder Scrolls III: Morrowind GOTY Edition | [OpenMW](https://flathub.org/en/apps/org.openmw.OpenMW) | Wayland, DRI, Pulseaudio  | For mod management see [LOOT](https://flathub.org/en/apps/io.github.loot.loot). |
+| The Settlers® 2: Gold Edition | [Return to the Roots](https://flathub.org/en/apps/info.rttr.Return-To-The-Roots) | Wayland, DRI, Pipewire, (Network) | Network permission is required for multiplayer only.  | 
+| Various: Adventure and role-playing games | [ScummVM](https://flathub.org/en/apps/org.scummvm.ScummVM) | Wayland, DRI, Pipewire | Tested with Beneath a Steel Sky (1994). |
 
 ## How to check for compatibility
 
