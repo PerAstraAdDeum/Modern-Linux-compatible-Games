@@ -28,6 +28,9 @@ All of the following games were tested with `ia32_emulation=0` Kernel argument. 
 
 ### List of Games (GOG)
 
+<details>
+  <summary>Click to show full list</summary>
+
 | Game Name  | Platform | Tested with | DXVK/VK3D version | Runs? | Comment | 
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
 | Batman™: Arkham Knight   | GOG | Heroic Games Launcher  | GE-Proton-Latest | yes |
@@ -59,6 +62,9 @@ All of the following games were tested with `ia32_emulation=0` Kernel argument. 
 | Warhammer 40,000: Boltgun | GOG | Heroic Games Launcher  | GE-Proton-Latest | yes |
 | Warhammer 40,000: Dawn of War - Definitive Edition   | GOG | Heroic Games Launcher  | GE-Proton-Latest | yes |
 
+</details>
+
+
 ## Playing Games with FOSS (engine) recreations
 
 If you are inclined to disable 32-bit emulation and XWayland, but still want to keep playing your favourite game, maybe you'll be lucky and find your game among any of the lists of FOSS engine recreations (Like this one [here](https://en.wikipedia.org/wiki/List_of_game_engine_recreations)). Chances are high that the new engine will support both native Wayland and 64-bit.
@@ -78,6 +84,9 @@ All of the following were tested with Flathub on Fedora Atomic and meet the foll
 
 ### List of Games
 
+<details>
+  <summary>Click to show full list</summary>
+
 | Game Name  | Re-implementation |  Minimal set of permissions | Comment | 
 | ------------- | ------------- | -------------  | ------------- |
 | Caesar III | [Augustus](https://flathub.org/en/apps/com.github.keriew.augustus) | Wayland, DRI, Pipewire |  |
@@ -93,6 +102,9 @@ All of the following were tested with Flathub on Fedora Atomic and meet the foll
 | The Elder Scrolls III: Morrowind GOTY Edition | [OpenMW](https://flathub.org/en/apps/org.openmw.OpenMW) | Wayland, DRI, Pulseaudio  | For mod management see [LOOT](https://flathub.org/en/apps/io.github.loot.loot). |
 | The Settlers® 2: Gold Edition | [Return to the Roots](https://flathub.org/en/apps/info.rttr.Return-To-The-Roots) | Wayland, DRI, Pipewire, (Network) | Network permission is required for multiplayer only.  | 
 | Various: Adventure and role-playing games | [ScummVM](https://flathub.org/en/apps/org.scummvm.ScummVM) | Wayland, DRI, Pipewire | Tested with Beneath a Steel Sky (1994). |
+
+</details>
+
 
 ## How to check for compatibility
 
