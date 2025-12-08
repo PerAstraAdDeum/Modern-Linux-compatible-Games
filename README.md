@@ -2,17 +2,31 @@
 
 A curated list of games that run on Linux and neither require 32-bit compatibility nor XWayland.
 
+---
+
+## **Table of content**
+
+- [Introduction](#introduction)
+- [Heroic Games Launcher](#heroic-games-launcher)
+  - [List of Games (GOG)](#list-of-games-gog)
+- [Playing Games with FOSS (engine) recreations](#playing-games-with-foss-engine-recreations)
+  - [List of Games](#list-of-games)
+- [How to check for compatibility](#how-to-check-for-compatibility)
+- [FAQ](#faq)
+
+---
+
 ## Introduction
 
 With the advent of DXVK, Proton and Gaming Distros like CachyOS and Bazzite, Gaming on Linux has reached an all-time-high.
 
 This is a list of Windows games that you can play on Linux without the need for XWayland or 32-bit dependencies, using compatibility tools for Wine or engine recreations.
 
-## Playing GOG Games with Heroic Games Launcher
+## Heroic Games Launcher
 
 All of the following games were tested with `ia32_emulation=0` Kernel argument. They were installed using Heroic Games Launcher's download system, which unlike GOG's offline installers does not require 32-bit emulation. To run them, both `Enable Wine-Wayland(Experimental) (Wine version needs to support it)` and `Enable WoW64 (Experimental)` were enabled in Heroic's Wine settings.  
 
-### The List
+### List of Games (GOG)
 
 | Game Name  | Platform | Tested with | DXVK/VK3D version | Runs? | Comment | 
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
@@ -62,7 +76,7 @@ All of the following were tested with Flathub on Fedora Atomic and meet the foll
 + Does not rely on outdated runtimes.
 
 
-### The List
+### List of Games
 
 | Game Name  | Re-implementation |  Minimal set of permissions | Comment | 
 | ------------- | ------------- | -------------  | ------------- |
@@ -111,6 +125,8 @@ For already installed games you can again make use of MangoHud by setting the `d
 
 ![](https://github.com/user-attachments/assets/49732182-409d-4622-8983-2a5f5bc7f413)  
 *Factorio with MangoHud being enabled. Notice the lines for arch and display server.*
+
+## FAQ
 
 # My favourite game requires either 32-bit or XWayland, what should I do?
 
