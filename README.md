@@ -47,6 +47,7 @@ All of the following games were tested with `ia32_emulation=0` Kernel argument. 
 | Metro: Last Light Redux | GOG | Heroic Games Launcher  | GE-Proton-Latest | yes |
 | Middle-earth™: Shadow of Mordor™ Game of the Year Edition   | GOG | Heroic Games Launcher  | GE-Proton-Latest | yes |
 | No Man's Sky | GOG | Heroic Games Launcher  | GE-Proton-Latest | yes |
+| Prey | GOG | Heroic Games Launcher | GE-Proton-Latest | yes |
 | Project Zomboid | GOG | Heroic Games Launcher  | GE-Proton-Latest | yes | Need to manually select x64 executable. Also has a native Linux port. |
 | Quake Enhanced | GOG | Heroic Games Launcher | GE-Proton-Latest | yes |
 | Quake II | GOG | Heroic Games Launcher | GE-Proton-Latest | yes | This is the "Enhanced" version, the original is named "Quake II (Original)" on GOG. |
