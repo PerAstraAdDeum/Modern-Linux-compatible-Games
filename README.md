@@ -93,7 +93,8 @@ All of the following were tested with Flathub on Fedora Atomic and meet the foll
 | Caesar III | [Augustus](https://flathub.org/en/apps/com.github.keriew.augustus) | Wayland, DRI, Pipewire |  |
 | Commander Keen (various) | [Commander Genius](https://flathub.org/en/apps/io.sourceforge.clonekeenplus) | Wayland, DRI, Pipewire, (Network) | Network permission can be used to download various freely available episodes. |
 | Diablo | [DevilutionX](https://flathub.org/en/apps/org.diasurgical.DevilutionX) | Wayland, DRI, Pulseaudio, (Network) | Network permission is required for multiplayer only. Also works with the expansion, Hellfire. |
-| Doom | [Odamex](https://flathub.org/en/apps/net.odamex.Odamex) | Wayland, DRI, Pipewire |  |
+| Doom | [Crispy Doom](https://flathub.org/en/apps/io.github.fabiangreffrath.Doom) | Wayland, DRI, Pipewire| |
+|  | [Odamex](https://flathub.org/en/apps/net.odamex.Odamex) | Wayland, DRI, Pipewire |  |
 | Doom II | [Odamex](https://flathub.org/en/apps/net.odamex.Odamex) | Wayland, DRI, Pipewire |  |
 | DOOM 3: BFG Edition | [Doom BFA](https://flathub.org/en/apps/io.github.maddecoder.Classic-RBDOOM-3-BFG) | Wayland, DRI, Pipewire, (Network)  | Network permission is required for multiplayer only. |
 |  | [RBDOOM-3-BFG](https://flathub.org/en/apps/io.github.RobertBeckebans.RBDOOM-3-BFG) | Wayland, DRI, Pulseaudio, (Network)  | Network permission is required for multiplayer only. |
