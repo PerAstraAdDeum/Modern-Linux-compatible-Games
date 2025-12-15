@@ -42,6 +42,7 @@ All of the following games were tested with `ia32_emulation=0` Kernel argument. 
 | Dishonored®: Death of the Outsider™ | GOG | Heroic Games Launcher | GE-Proton-Latest | yes |
 | Dorfromantik   | GOG | Heroic Games Launcher  | GE-Proton-Latest | yes |
 | Factorio   | GOG | Heroic Games Launcher  | GE-Proton-Latest | yes | Also has a native Linux port. |
+| Hollow Knight | GOG | Heroic Games Launcher | GE-Proton10-26 | yes | Also has a native Linux port. |
 | Metro 2033 Redux | GOG | Heroic Games Launcher  | GE-Proton-Latest | yes |
 | Metro Exodus | GOG | Heroic Games Launcher  | GE-Proton-Latest | yes |
 | Metro: Last Light Redux | GOG | Heroic Games Launcher  | GE-Proton-Latest | yes |
