@@ -11,6 +11,8 @@ A curated list of games that run on Linux and neither require 32-bit compatibili
   - [List of Games (GOG)](#list-of-games-gog)
 - [Playing Games with FOSS (engine) recreations](#playing-games-with-foss-engine-recreations)
   - [List of Games](#list-of-games)
+- [Linux native Games](#linux-native-games)
+  - [List of native Linux Games](#list-of-native-Linux-Games)
 - [How to check for compatibility](#how-to-check-for-compatibility)
 - [FAQ](#faq)
 
@@ -111,6 +113,31 @@ All of the following were tested with Flathub on Fedora Atomic and meet the foll
 
 </details>
 
+## Linux native Games
+
+All of the following were tested with Flathub on Fedora Atomic and meet the following requirements:
++ Do not require any other permissions other than Wayland, DRI, Pulseaudio and network for multiplayer.
++ The Flatpak is verified.
++ Does not rely on outdated runtimes.
+
+
+### List of native Linux Games
+
+<details>
+  <summary>Click to show full list</summary>
+
+| Game Name  | Description |  Minimal set of permissions | Comment | 
+| ------------- | ------------- | -------------  | ------------- |
+| [0 A.D.](https://flathub.org/en/apps/com.play0ad.zeroad) | RTS similar to Age of Empires. | Wayland, DRI, Pulseaudio, Network (For multiplayer)||
+| [Battle for Wesnoth](https://flathub.org/en/apps/org.wesnoth.Wesnoth) | Fantasy turn-based strategy, maybe similar to HOMM. | Wayland, DRI, Pipewire, Network (For multiplayer)||
+| [Beyond All Reason](https://flathub.org/en/apps/info.beyondallreason.bar) | Large-scale RTS similar to Total Annihilation or Supreme Commander. | Wayland, DRI, Pipewire, Network (not strictly necessary, but without it the game experience is greaty impaired)  | Requires `ELECTRON_OZONE_PLATFORM_HINT=wayland`, `SDL_VIDEODRIVER=wayland` and `LIBDECOR_PLUGIN_DIR=null` environment variables. |
+| [Luanti](https://flathub.org/en/apps/org.luanti.luanti) | Sandbox game similar to Minecraft. | Wayland, DRI, PulseAudio, Network (not strictly necessary, but without it the game experience is greaty impaired)|Formerly named Minetest.|
+| [SuperTuxKart](https://flathub.org/en/apps/net.supertuxkart.SuperTuxKart) | Racing game similar to Mario Kart. | Wayland, DRI, PulseAudio, Network (not strictly necessary, but without it the game experience is greaty impaired) | |
+| [Warzone 2100](https://flathub.org/en/apps/net.wz2100.wz2100) | RTS similar to Earth 2150.| Wayland, DRI, PulseAudio, Network (For multiplayer)||
+| [Xonotic](https://flathub.org/en/apps/org.xonotic.Xonotic) | Arena-like FPS similar to Unreal Tournament or Quake III. | Wayland, DRI, Pipewire, Network (not strictly necessary, but without it the game experience is greaty impaired) | |
+
+
+</details>
 
 ## How to check for compatibility
 
