@@ -7,7 +7,7 @@ A curated list of games that run on Linux and neither require 32-bit compatibili
 ## **Table of content**
 
 - [Introduction](#introduction)
-- [Heroic Games Launcher](#heroic-games-launcher)
+- [Windows Games with Wine](#Windows-Games-with-Wine)
   - [List of Games (GOG)](#list-of-games-gog)
 - [Playing Games with FOSS (engine) recreations](#playing-games-with-foss-engine-recreations)
   - [List of Games](#list-of-games)
@@ -24,7 +24,7 @@ With the advent of DXVK, Proton and Gaming Distros like CachyOS and Bazzite, Gam
 
 This is a list of Windows games that you can play on Linux without the need for XWayland or 32-bit dependencies, using compatibility tools for Wine or engine recreations.
 
-## Heroic Games Launcher
+## Playing Windows Games with Wine
 
 All of the following games were tested with `ia32_emulation=0` Kernel argument. They were installed using Heroic Games Launcher's download system, which unlike GOG's offline installers does not require 32-bit emulation. To run them, both `Enable Wine-Wayland(Experimental) (Wine version needs to support it)` and `Enable WoW64 (Experimental)` were enabled in Heroic's Wine settings.  
 
@@ -133,7 +133,9 @@ All of the following were tested with Flathub on Fedora Atomic and meet the foll
 | [Beyond All Reason](https://flathub.org/en/apps/info.beyondallreason.bar) | Large-scale RTS similar to Total Annihilation or Supreme Commander. | Wayland, DRI, Pipewire, Network (not strictly necessary, but without it the game experience is greaty impaired)  | Requires `ELECTRON_OZONE_PLATFORM_HINT=wayland`, `SDL_VIDEODRIVER=wayland` and `LIBDECOR_PLUGIN_DIR=null` environment variables. |
 | [Luanti](https://flathub.org/en/apps/org.luanti.luanti) | Sandbox game similar to Minecraft. | Wayland, DRI, PulseAudio, Network (not strictly necessary, but without it the game experience is greaty impaired)|Formerly named Minetest.|
 | [SuperTuxKart](https://flathub.org/en/apps/net.supertuxkart.SuperTuxKart) | Racing game similar to Mario Kart. | Wayland, DRI, PulseAudio, Network (not strictly necessary, but without it the game experience is greaty impaired) | |
+| [Unvanquised](https://flathub.org/en/apps/net.unvanquished.Unvanquished) | Multiplayer Co-Op Shooter.| Wayland, DRI, PulseAudio, Network (not strictly necessary, but without it the game experience is greaty impaired) ||
 | [Warzone 2100](https://flathub.org/en/apps/net.wz2100.wz2100) | RTS similar to Earth 2150.| Wayland, DRI, PulseAudio, Network (For multiplayer)||
+| [Widelands](https://flathub.org/en/apps/org.widelands.Widelands) | RTS similar to The Settlers. | Wayland, DRI, Pipewire, Network (For multiplayer)||
 | [Xonotic](https://flathub.org/en/apps/org.xonotic.Xonotic) | Arena-like FPS similar to Unreal Tournament or Quake III. | Wayland, DRI, Pipewire, Network (not strictly necessary, but without it the game experience is greaty impaired) | |
 
 
