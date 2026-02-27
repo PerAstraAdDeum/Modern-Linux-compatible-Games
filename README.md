@@ -37,7 +37,7 @@ All of the following games were tested with `ia32_emulation=0` Kernel argument. 
 | Batman™: Arkham Knight    | Heroic Games Launcher  | GE-Proton-Latest | yes |
 | Bulwark Evolution: Falconeer Chronicles   | Heroic Games Launcher | GE-Proton Latest | yes |
 | Control Ultimate Edition  | 2.20.1  | GE-Proton10-32 | yes |
-| Cyberpunk 2077  | Heroic Games Launcher  | GE-Proton-Latest | yes |
+| Cyberpunk 2077  | 2.20.1  | GE-Proton10-32 | yes |
 | Crysis®    | 2.20.1  | GE-Proton10-32 | yes | Uses the C1-Launcher. Warhead and Wars should work with it as well. |
 | Dishonored 2  | Heroic Games Launcher  | GE-Proton-Latest | yes |
 | Dishonored®: Death of the Outsider™  | Heroic Games Launcher | GE-Proton-Latest | yes |
@@ -45,24 +45,25 @@ All of the following games were tested with `ia32_emulation=0` Kernel argument. 
 | Dying Light: The following Enhanced Edition  |  2.20.1 | GE-Proton10-32 | yes |
 | Factorio    | Heroic Games Launcher  | GE-Proton-Latest | yes | Also has a native Linux port. |
 | FINAL FANTASY VII  |  2.20.1 | GE-Proton10-32| yes | Need to launch the game exe directly. |
-| Hollow Knight  | Heroic Games Launcher | GE-Proton10-26 | yes | Also has a native Linux port. |
+| Hollow Knight  | 2.20.1  | GE-Proton10-32 | yes | Also has a native Linux port. |
 | Metro 2033 Redux  | Heroic Games Launcher  | GE-Proton-Latest | yes |
-| Metro Exodus  | Heroic Games Launcher  | GE-Proton-Latest | yes |
+| Metro Exodus  | 2.20.1  | GE-Proton10-32 | yes |
 | Metro: Last Light Redux  | Heroic Games Launcher  | GE-Proton-Latest | yes |
-| Middle-earth™: Shadow of Mordor™ Game of the Year Edition    | Heroic Games Launcher  | GE-Proton-Latest | yes |
+| Middle-earth™: Shadow of Mordor™ Game of the Year Edition    | 2.20.1  | GE-Proton10-32 | yes |
 | Middle-earth™: Shadow of War™  |  2.20.1 | GE-Proton10-32 | yes |
 | No Man's Sky  | Heroic Games Launcher  | GE-Proton-Latest | yes |
 | Prey  | Heroic Games Launcher | GE-Proton-Latest | yes |
 | Project Zomboid  | Heroic Games Launcher  | GE-Proton-Latest | yes | Need to manually select x64 executable. Also has a native Linux port. |
 | Quake Enhanced  | Heroic Games Launcher | GE-Proton-Latest | yes |
 | Quake II  | Heroic Games Launcher | GE-Proton-Latest | yes | This is the "Enhanced" version, the original is named "Quake II (Original)" on GOG. |
-| Quake II RTX  | Heroic Games Launcher | GE-Proton-Latest | yes |
+| Quake II RTX  | 2.20.1 | GE-Proton10-32 | yes |
 | Rise of the Tomb Raider: 20 Year Celebration    | Heroic Games Launcher  | GE-Proton-Latest | yes |
+| Scorn    | Heroic Games Launcher  | GE-Proton-Latest | yes |
 | S.T.A.L.K.E.R.: Call of Prypiat - Enhanced Edition    | Heroic Games Launcher  | GE-Proton-Latest | yes |
 | S.T.A.L.K.E.R.: Clear Sky - Enhanced Edition  | Heroic Games Launcher  | GE-Proton-Latest | yes |
 | S.T.A.L.K.E.R.: Shadow of Chornobyl - Enhanced Edition    | Heroic Games Launcher  | GE-Proton-Latest | yes |
 | Styx: Master of Shadows |  2.20.1 | GE-Proton10-32 | yes |
-| Scorn    | Heroic Games Launcher  | GE-Proton-Latest | yes |
+| Svarog's Dream | 2.20.1  | GE-Proton10-32 | yes |
 | Shadow of the Tomb Raider: Definitive Edition    | Heroic Games Launcher  | GE-Proton-Latest | yes |
 | The Elder Scrolls V: Skyrim Special Edition    | Heroic Games Launcher  | GE-Proton-Latest | yes | For mod management see [LOOT](https://flathub.org/en/apps/io.github.loot.loot). |
 | The Witcher 3: Wild Hunt - Complete Edition    | Heroic Games Launcher  | GE-Proton-Latest | yes | You may need to launch the game exe directly. |
@@ -131,6 +132,7 @@ All of the following were tested with Flathub on Fedora Atomic and meet the foll
 | [0 A.D.](https://flathub.org/en/apps/com.play0ad.zeroad) | RTS similar to Age of Empires. | Wayland, DRI, Pulseaudio, Network (For multiplayer)||
 | [Battle for Wesnoth](https://flathub.org/en/apps/org.wesnoth.Wesnoth) | Fantasy turn-based strategy, maybe similar to HOMM. | Wayland, DRI, Pipewire, Network (For multiplayer)||
 | [Beyond All Reason](https://flathub.org/en/apps/info.beyondallreason.bar) | Large-scale RTS similar to Total Annihilation or Supreme Commander. | Wayland, DRI, Pipewire, Network (not strictly necessary, but without it the game experience is greaty impaired)  | Requires `ELECTRON_OZONE_PLATFORM_HINT=wayland`, `SDL_VIDEODRIVER=wayland` and `LIBDECOR_PLUGIN_DIR=null` environment variables. |
+| [Flare: Empyrean Campaign](https://flathub.org/en/apps/org.flarerpg.Flare) | ARPG similar to Diablo I. | Wayland, DRI, Pipewire |
 | [Luanti](https://flathub.org/en/apps/org.luanti.luanti) | Sandbox game similar to Minecraft. | Wayland, DRI, PulseAudio, Network (not strictly necessary, but without it the game experience is greaty impaired)|Formerly named Minetest.|
 | [SuperTuxKart](https://flathub.org/en/apps/net.supertuxkart.SuperTuxKart) | Racing game similar to Mario Kart. | Wayland, DRI, PulseAudio, Network (not strictly necessary, but without it the game experience is greaty impaired) | |
 | [Unvanquised](https://flathub.org/en/apps/net.unvanquished.Unvanquished) | Multiplayer Co-Op Shooter.| Wayland, DRI, PulseAudio, Network (not strictly necessary, but without it the game experience is greaty impaired) ||
