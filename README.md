@@ -111,12 +111,14 @@ All of the following were tested with Flathub on Fedora Atomic and meet the foll
 |  | [RBDOOM-3-BFG](https://flathub.org/en/apps/io.github.RobertBeckebans.RBDOOM-3-BFG) | Wayland, DRI, Pulseaudio, (Network)  | Network permission is required for multiplayer only. |
 | Heroes of Might and Magic® 2: Gold | [fheroes2](https://flathub.org/en/apps/io.github.ihhub.Fheroes2) | Wayland, DRI, Pipewire  |  |
 | Heroes of Might and Magic® 3: Complete | [VCMI](https://flathub.org/en/apps/eu.vcmi.VCMI) | Wayland, DRI, Pipewire, (Network)  | Network permission is required for multiplayer and mod management. Also works for Horn of the Abyss expansion. |
+| Hexen II | [Hexen II: Hammer of Thyrion](https://flathub.org/en/apps/net.sourceforge.uhexen2.uhexen2) | Wayland, DRI, Pipewire, (Network)  | Network permission is required for multiplayer only. |
 | STAR WARS™ Dark Forces (Classic, 1995) | [The Force Engine](https://flathub.org/en/apps/io.github.theforceengine.tfe) | Wayland, DRI, Pipewire |  |
 | RollerCoaster Tycoon® 2: Triple Thrill Pack | [OpenRCT2](https://flathub.org/en/apps/io.openrct2.OpenRCT2) | Wayland, DRI, Pipewire, (Network) | Network permission is required for multiplayer only.  |
 | Theme Hospital | [CorsixTH](https://flathub.org/en/apps/com.corsixth.corsixth) | Wayland, DRI, Pipewire |  |
 | The Elder Scrolls III: Morrowind GOTY Edition | [OpenMW](https://flathub.org/en/apps/org.openmw.OpenMW) | Wayland, DRI, Pulseaudio  | For mod management see [LOOT](https://flathub.org/en/apps/io.github.loot.loot). |
 | The Settlers® 2: Gold Edition | [Return to the Roots](https://flathub.org/en/apps/info.rttr.Return-To-The-Roots) | Wayland, DRI, Pipewire, (Network) | Network permission is required for multiplayer only.  | 
 | Various: Adventure and role-playing games | [ScummVM](https://flathub.org/en/apps/org.scummvm.ScummVM) | Wayland, DRI, Pipewire | Tested with Beneath a Steel Sky (1994). |
+| Various: BioWare Classics | [GemRB](https://flathub.org/en/apps/org.gemrb.gemrb) | Wayland, DRI, PulseAudio | Tested with Baldur's Gate. |
 
 
 
