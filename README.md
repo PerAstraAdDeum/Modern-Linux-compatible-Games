@@ -50,6 +50,8 @@ All of the following games were tested with `ia32_emulation=0` Kernel argument. 
 | Middle-earth™: Shadow of Mordor™ Game of the Year Edition    | 2.20.1  | GE-Proton10-32 |  |
 | Middle-earth™: Shadow of War™  |  2.20.1 | GE-Proton10-32 |  |
 | No Man's Sky  | 2.20.1  | GE-Proton10-32 |  |
+| Outlast | 2.20.1  | GE-Proton10-32 | Need to manually select x64 executable. Also has a native Linux port. |
+| Outlast 2 | 2.20.1  | GE-Proton10-32 | |
 | Pillars of Eternity: Definitive Edition  | 2.20.1 | GE-Proton10-32 | Also has a native Linux port. |
 | Prey  | 2.20.1  | GE-Proton10-32 |  |
 | Project Zomboid  | 2.20.1  | GE-Proton10-32 |   Need to manually select x64 executable. Also has a native Linux port. |
@@ -65,9 +67,11 @@ All of the following games were tested with `ia32_emulation=0` Kernel argument. 
 | Styx: Shards of Darkness | 2.20.1 | GE-Proton10-32 |  |
 | Svarog's Dream | 2.20.1  | GE-Proton10-32 |  |
 | Shadow of the Tomb Raider: Definitive Edition    | 2.20.1 | GE-Proton10-32 |  |
+| System Shock: Enhanced Edition | 2.20.1  | GE-Proton10-32 |  |
 | Terraria | 2.20.1 | -- | Also has a native Linux port. Windows version is 32bit. |
 | The Elder Scrolls V: Skyrim Special Edition    | 2.20.1 | GE-Proton10-32 |   For mod management see [LOOT](https://flathub.org/en/apps/io.github.loot.loot). |
 | The Witcher 3: Wild Hunt - Complete Edition    | 2.20.1  | GE-Proton10-32 |   You may need to launch the game exe directly. |
+| This War of Mine | 2.20.1  | GE-Proton10-32 | Need to manually select x64 executable. Also has a native Linux port. |
 | Warhammer 40,000: Boltgun  | 2.20.1 | GE-Proton10-32 |  |
 | Warhammer 40,000: Dawn of War - Definitive Edition    | 2.20.1 | GE-Proton10-32 |  |
 
