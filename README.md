@@ -32,41 +32,44 @@ All of the following games were tested with `ia32_emulation=0` Kernel argument. 
 
 
 
-| Game Name   | Heroic Games Launcher version | Proton version | Runs? | Comment | 
-| -------------  | ------------- | ------------- | ------------- | ------------- |
-| Batman™: Arkham Knight    | 2.20.1  | GE-Proton10-32 | yes |
-| Bulwark Evolution: Falconeer Chronicles   | 2.20.1  | GE-Proton10-32 | yes |
-| Control Ultimate Edition  | 2.20.1  | GE-Proton10-32 | yes |
-| Cyberpunk 2077  | 2.20.1  | GE-Proton10-32 | yes |
-| Crysis®    | 2.20.1  | GE-Proton10-32 | yes | Uses the C1-Launcher. Warhead and Wars should work with it as well. |
-| Dishonored 2  | 2.20.1  | GE-Proton10-32 | yes |
-| Dishonored®: Death of the Outsider™  | 2.20.1  | GE-Proton10-32 | yes |
-| Dorfromantik    | 2.20.1  | GE-Proton10-32 | yes |
-| Dying Light: The following Enhanced Edition  |  2.20.1 | GE-Proton10-32 | yes |
-| Factorio    | Heroic Games Launcher  | GE-Proton-Latest | yes | Also has a native Linux port. |
-| FINAL FANTASY VII  |  2.20.1 | GE-Proton10-32| yes | Need to launch the game exe directly. |
-| Hollow Knight  | 2.20.1  | GE-Proton10-32 | yes | Also has a native Linux port. |
-| Metro Exodus  | 2.20.1  | GE-Proton10-32 | yes |
-| Middle-earth™: Shadow of Mordor™ Game of the Year Edition    | 2.20.1  | GE-Proton10-32 | yes |
-| Middle-earth™: Shadow of War™  |  2.20.1 | GE-Proton10-32 | yes |
-| No Man's Sky  | 2.20.1  | GE-Proton10-32 | yes |
-| Prey  | 2.20.1  | GE-Proton10-32 | yes |
-| Project Zomboid  | Heroic Games Launcher  | GE-Proton-Latest | yes | Need to manually select x64 executable. Also has a native Linux port. |
-| Quake Enhanced  | Heroic Games Launcher | GE-Proton-Latest | yes |
-| Quake II  | Heroic Games Launcher | GE-Proton-Latest | yes | This is the "Enhanced" version, the original is named "Quake II (Original)" on GOG. |
-| Quake II RTX  | 2.20.1 | GE-Proton10-32 | yes |
-| Rise of the Tomb Raider: 20 Year Celebration    | Heroic Games Launcher  | GE-Proton-Latest | yes |
-| Scorn    | Heroic Games Launcher  | GE-Proton-Latest | yes |
-| S.T.A.L.K.E.R.: Call of Prypiat - Enhanced Edition    | Heroic Games Launcher  | GE-Proton-Latest | yes |
-| S.T.A.L.K.E.R.: Clear Sky - Enhanced Edition  | Heroic Games Launcher  | GE-Proton-Latest | yes |
-| S.T.A.L.K.E.R.: Shadow of Chornobyl - Enhanced Edition    | Heroic Games Launcher  | GE-Proton-Latest | yes |
-| Styx: Master of Shadows |  2.20.1 | GE-Proton10-32 | yes |
-| Svarog's Dream | 2.20.1  | GE-Proton10-32 | yes |
-| Shadow of the Tomb Raider: Definitive Edition    | Heroic Games Launcher  | GE-Proton-Latest | yes |
-| The Elder Scrolls V: Skyrim Special Edition    | Heroic Games Launcher  | GE-Proton-Latest | yes | For mod management see [LOOT](https://flathub.org/en/apps/io.github.loot.loot). |
-| The Witcher 3: Wild Hunt - Complete Edition    | 2.20.1  | GE-Proton10-32 | yes | You may need to launch the game exe directly. |
-| Warhammer 40,000: Boltgun  | Heroic Games Launcher  | GE-Proton-Latest | yes |
-| Warhammer 40,000: Dawn of War - Definitive Edition    | Heroic Games Launcher  | GE-Proton-Latest | yes |
+| Game Name   |  Launcher version | Proton version |  Comment | 
+| -------------  | ------------- | ------------- |  ------------- |
+| Batman™: Arkham Knight    | 2.20.1  | GE-Proton10-32 |  |
+| Bulwark Evolution: Falconeer Chronicles   | 2.20.1  | GE-Proton10-32 |  |
+| Control Ultimate Edition  | 2.20.1  | GE-Proton10-32 |  |
+| Cyberpunk 2077  | 2.20.1  | GE-Proton10-32 |  |
+| Crysis®    | 2.20.1  | GE-Proton10-32 |   Uses the C1-Launcher. Warhead and Wars should work with it as well. |
+| Dishonored 2  | 2.20.1  | GE-Proton10-32 |  |
+| Dishonored®: Death of the Outsider™  | 2.20.1  | GE-Proton10-32 |  |
+| Dorfromantik    | 2.20.1  | GE-Proton10-32 |  |
+| Dying Light: The following Enhanced Edition  |  2.20.1 | GE-Proton10-32 |  |
+| Factorio    | Heroic Games Launcher  | GE-Proton-Latest |  Also has a native Linux port. |
+| FINAL FANTASY VII  |  2.20.1 | GE-Proton10-32|   Need to launch the game exe directly. |
+| Hollow Knight  | 2.20.1  | GE-Proton10-32 |   Also has a native Linux port. |
+| Metro Exodus  | 2.20.1  | GE-Proton10-32 |  |
+| Middle-earth™: Shadow of Mordor™ Game of the Year Edition    | 2.20.1  | GE-Proton10-32 |  |
+| Middle-earth™: Shadow of War™  |  2.20.1 | GE-Proton10-32 |  |
+| No Man's Sky  | 2.20.1  | GE-Proton10-32 |  |
+| Pillars of Eternity: Definitive Edition  | 2.20.1 | GE-Proton10-32 | Also has a native Linux port. |
+| Prey  | 2.20.1  | GE-Proton10-32 |  |
+| Project Zomboid  | 2.20.1  | GE-Proton10-32 |   Need to manually select x64 executable. Also has a native Linux port. |
+| Quake Enhanced  | 2.20.1 | GE-Proton10-32 |  |
+| Quake II  | 2.20.1 | GE-Proton10-32 |   This is the "Enhanced" version, the original is named "Quake II (Original)" on GOG. |
+| Quake II RTX  | 2.20.1 | GE-Proton10-32 |  |
+| Rise of the Tomb Raider: 20 Year Celebration    | 2.20.1 | GE-Proton10-32 |  |
+| Scorn    | 2.20.1 | GE-Proton10-32 |  |
+| S.T.A.L.K.E.R.: Call of Prypiat - Enhanced Edition    | 2.20.1 | GE-Proton10-32 |  |
+| S.T.A.L.K.E.R.: Clear Sky - Enhanced Edition  | 2.20.1 | GE-Proton10-32 |  |
+| S.T.A.L.K.E.R.: Shadow of Chornobyl - Enhanced Edition    | 2.20.1 | GE-Proton10-32 |  |
+| Styx: Master of Shadows |  2.20.1 | GE-Proton10-32 |  |
+| Styx: Shards of Darkness | 2.20.1 | GE-Proton10-32 |  |
+| Svarog's Dream | 2.20.1  | GE-Proton10-32 |  |
+| Shadow of the Tomb Raider: Definitive Edition    | 2.20.1 | GE-Proton10-32 |  |
+| Terraria | 2.20.1 | -- | Also has a native Linux port. Windows version is 32bit. |
+| The Elder Scrolls V: Skyrim Special Edition    | 2.20.1 | GE-Proton10-32 |   For mod management see [LOOT](https://flathub.org/en/apps/io.github.loot.loot). |
+| The Witcher 3: Wild Hunt - Complete Edition    | 2.20.1  | GE-Proton10-32 |   You may need to launch the game exe directly. |
+| Warhammer 40,000: Boltgun  | 2.20.1 | GE-Proton10-32 |  |
+| Warhammer 40,000: Dawn of War - Definitive Edition    | 2.20.1 | GE-Proton10-32 |  |
 
 
 
