@@ -109,8 +109,10 @@ All of the following were tested with Flathub on Fedora Atomic and meet the foll
 | Doom II | [Odamex](https://flathub.org/en/apps/net.odamex.Odamex) | Wayland, DRI, Pipewire |  |
 | DOOM 3: BFG Edition | [Doom BFA](https://flathub.org/en/apps/io.github.maddecoder.Classic-RBDOOM-3-BFG) | Wayland, DRI, Pipewire, (Network)  | Network permission is required for multiplayer only. |
 |  | [RBDOOM-3-BFG](https://flathub.org/en/apps/io.github.RobertBeckebans.RBDOOM-3-BFG) | Wayland, DRI, Pulseaudio, (Network)  | Network permission is required for multiplayer only. |
+| Heretic | [UZDoom](https://flathub.org/en/apps/org.zdoom.UZDoom) | Wayland, DRI, PulseAudio | |
 | Heroes of Might and Magic® 2: Gold | [fheroes2](https://flathub.org/en/apps/io.github.ihhub.Fheroes2) | Wayland, DRI, Pipewire  |  |
 | Heroes of Might and Magic® 3: Complete | [VCMI](https://flathub.org/en/apps/eu.vcmi.VCMI) | Wayland, DRI, Pipewire, (Network)  | Network permission is required for multiplayer and mod management. Also works for Horn of the Abyss expansion. |
+| Hexen: Beyond Heretic | [UZDoom](https://flathub.org/en/apps/org.zdoom.UZDoom) | Wayland, DRI, PulseAudio | |
 | Hexen II | [Hexen II: Hammer of Thyrion](https://flathub.org/en/apps/net.sourceforge.uhexen2.uhexen2) | Wayland, DRI, Pipewire, (Network)  | Network permission is required for multiplayer only. |
 | STAR WARS™ Dark Forces (Classic, 1995) | [The Force Engine](https://flathub.org/en/apps/io.github.theforceengine.tfe) | Wayland, DRI, Pipewire |  |
 | RollerCoaster Tycoon® 2: Triple Thrill Pack | [OpenRCT2](https://flathub.org/en/apps/io.openrct2.OpenRCT2) | Wayland, DRI, Pipewire, (Network) | Network permission is required for multiplayer only.  |
