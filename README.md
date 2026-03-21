@@ -36,6 +36,7 @@ All of the following games were tested with `ia32_emulation=0` Kernel argument. 
 | -------------  | ------------- | ------------- |  ------------- |
 | Batman™: Arkham Knight    | 2.20.1  | GE-Proton10-32 |  |
 | Bulwark Evolution: Falconeer Chronicles   | 2.20.1  | GE-Proton10-32 |  |
+| Clair Obscur: Expedition 33 | 2.20.1 | GE-Proton10-33 | Upon first launch the games ask to install MS Visual C++. This will fail with 32bit being disabled, it is however possible to enable 32bit solely for this step; the game runs fine afterwards without 32bit.|
 | Control Ultimate Edition  | 2.20.1  | GE-Proton10-32 |  |
 | Cyberpunk 2077  | 2.20.1  | GE-Proton10-32 |  |
 | Crysis®    | 2.20.1  | GE-Proton10-32 |   Uses the C1-Launcher. Warhead and Wars should work with it as well. |
