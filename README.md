@@ -36,17 +36,22 @@ All of the following games were tested with `ia32_emulation=0` Kernel argument. 
 | -------------  | ------------- | ------------- |  ------------- |
 | Batman™: Arkham Knight    | 2.20.1  | GE-Proton10-32 |  |
 | Bulwark Evolution: Falconeer Chronicles   | 2.20.1  | GE-Proton10-32 |  |
-| Clair Obscur: Expedition 33 | 2.20.1 | GE-Proton10-33 | Upon first launch the games ask to install MS Visual C++. This will fail with 32bit being disabled, it is however possible to enable 32bit solely for this step; the game runs fine afterwards without 32bit.|
+| Clair Obscur: Expedition 33 | 2.20.1 | GE-Proton10-33 | Upon first launch the game ask to install MS Visual C++. This will fail with 32bit being disabled, it is however possible to enable 32bit solely for this step; the game runs fine afterwards without 32bit.|
 | Control Ultimate Edition  | 2.20.1  | GE-Proton10-32 |  |
 | Cyberpunk 2077  | 2.20.1  | GE-Proton10-32 |  |
 | Crysis®    | 2.20.1  | GE-Proton10-32 |   Uses the C1-Launcher. Warhead and Wars should work with it as well. |
 | Dishonored 2  | 2.20.1  | GE-Proton10-32 |  |
 | Dishonored®: Death of the Outsider™  | 2.20.1  | GE-Proton10-32 |  |
+| Divinity: Original Sin - Enhanced Edition | 2.20.1 | GE-Proton10-33 | Also has a native Linux port. |
 | Dorfromantik    | 2.20.1  | GE-Proton10-32 |  |
 | Dying Light: The following Enhanced Edition  |  2.20.1 | GE-Proton10-32 |  |
+| Everspace | 2.20.1 | GE-Proton10-33 | Also has a native Linux port. |
 | Factorio    | Heroic Games Launcher  | GE-Proton-Latest |  Also has a native Linux port. |
 | FINAL FANTASY VII  |  2.20.1 | GE-Proton10-32|   Need to launch the game exe directly. |
+| Firewatch | 2.20.1 | GE-Proton10-33 | Also has a native Linux port. |
 | Hollow Knight  | 2.20.1  | GE-Proton10-32 |   Also has a native Linux port. |
+| Metro 2033 Redux | 2.20.1 | GE-Proton10-33| |
+| Metro Last Light Redux | 2.20.1 | GE-Proton10-33||
 | Metro Exodus  | 2.20.1  | GE-Proton10-32 |  |
 | Middle-earth™: Shadow of Mordor™ Game of the Year Edition    | 2.20.1  | GE-Proton10-32 |  |
 | Middle-earth™: Shadow of War™  |  2.20.1 | GE-Proton10-32 |  |
