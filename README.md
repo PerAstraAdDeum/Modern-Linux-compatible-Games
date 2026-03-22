@@ -34,6 +34,8 @@ All of the following games were tested with `ia32_emulation=0` Kernel argument. 
 
 | Game Name   |  Launcher version | Proton version |  Comment | 
 | -------------  | ------------- | ------------- |  ------------- |
+| [Baldur's Gate: Enhanced Edition](https://gog.com/game/baldurs_gate_enhanced_edition) | 2.20.1 | GE-Proton10-33 | The game requires the installation of openal (winetricks), which itself won't install without 32bit being enabled. After installation, the game runs fine without 32bit. Also has a native Linux port. For playing the non-enhanced version, see [Playing Games with FOSS (engine) recreations](https://github.com/PerAstraAdDeum/Modern-Linux-compatible-Games/edit/main/README.md#playing-games-with-foss-engine-recreations)|
+| [Baldur's Gate II: Enhanced Edition](https://gog.com/game/baldurs_gate_2_enhanced_edition) | 2.20.1 | GE-Proton10-33 | The game requires the installation of openal (winetricks), which itself won't install without 32bit being enabled. After installation, the game runs fine without 32bit. Also has a native Linux port. For playing the non-enhanced version, see [Playing Games with FOSS (engine) recreations](https://github.com/PerAstraAdDeum/Modern-Linux-compatible-Games/edit/main/README.md#playing-games-with-foss-engine-recreations)|
 | Batman™: Arkham Knight    | 2.20.1  | GE-Proton10-32 |  |
 | Bulwark Evolution: Falconeer Chronicles   | 2.20.1  | GE-Proton10-32 |  |
 | Clair Obscur: Expedition 33 | 2.20.1 | GE-Proton10-33 | Upon first launch the game ask to install MS Visual C++. This will fail with 32bit being disabled, it is however possible to enable 32bit solely for this step; the game runs fine afterwards without 32bit.|
