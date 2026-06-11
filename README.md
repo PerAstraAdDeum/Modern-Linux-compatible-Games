@@ -34,6 +34,7 @@ All of the following games were tested with `ia32_emulation=0` Kernel argument. 
 
 | Game Name   |  Launcher version | Proton version |  Comment | 
 | -------------  | ------------- | ------------- |  ------------- |
+| A Plague Tale: Innocence | 2.22.0 | GE-Proton10-32 | |
 | [Baldur's Gate: Enhanced Edition](https://gog.com/game/baldurs_gate_enhanced_edition) | 2.20.1 | GE-Proton10-33 | The game requires the installation of openal (winetricks), which itself won't install without 32bit being enabled. After installation, the game runs fine without 32bit. Also has a native Linux port. For playing the non-enhanced version, see [Playing Games with FOSS (engine) recreations](https://github.com/PerAstraAdDeum/Modern-Linux-compatible-Games/edit/main/README.md#playing-games-with-foss-engine-recreations)|
 | [Baldur's Gate II: Enhanced Edition](https://gog.com/game/baldurs_gate_2_enhanced_edition) | 2.20.1 | GE-Proton10-33 | The game requires the installation of openal (winetricks), which itself won't install without 32bit being enabled. After installation, the game runs fine without 32bit. Also has a native Linux port. For playing the non-enhanced version, see [Playing Games with FOSS (engine) recreations](https://github.com/PerAstraAdDeum/Modern-Linux-compatible-Games/edit/main/README.md#playing-games-with-foss-engine-recreations)|
 | Batman™: Arkham Knight    | 2.20.1  | GE-Proton10-32 |  |
@@ -41,16 +42,22 @@ All of the following games were tested with `ia32_emulation=0` Kernel argument. 
 | Clair Obscur: Expedition 33 | 2.20.1 | GE-Proton10-33 | Upon first launch the game ask to install MS Visual C++. This will fail with 32bit being disabled, it is however possible to enable 32bit solely for this step; the game runs fine afterwards without 32bit.|
 | Control Ultimate Edition  | 2.20.1  | GE-Proton10-32 |  |
 | Cyberpunk 2077  | 2.20.1  | GE-Proton10-32 |  |
-| Crysis®    | 2.20.1  | GE-Proton10-32 |   Uses the C1-Launcher. Warhead and Wars should work with it as well. |
+| Crysis®    | 2.20.1  | GE-Proton10-32 |   Uses the C1-Launcher. Warhead and Wars work with it as well. |
+| Crysis Remastered | 2.22.0 | GE-Proton10-32 | |
+| Crysis 2 Remastered | 2.22.0 | GE-Proton10-32 | |
+| Crysis 3 Remastered | 2.22.0 | GE-Proton10-32 | |
 | Dishonored 2  | 2.20.1  | GE-Proton10-32 |  |
 | Dishonored®: Death of the Outsider™  | 2.20.1  | GE-Proton10-32 |  |
 | Divinity: Original Sin - Enhanced Edition | 2.20.1 | GE-Proton10-33 | Also has a native Linux port. |
+| DOOM Eternal | 2.22.0 | GE-Proton10-32 | |
 | Dorfromantik    | 2.20.1  | GE-Proton10-32 |  |
 | Dying Light: The following Enhanced Edition  |  2.20.1 | GE-Proton10-32 |  |
 | Everspace | 2.20.1 | GE-Proton10-33 | Also has a native Linux port. |
 | Factorio    | Heroic Games Launcher  | GE-Proton-Latest |  Also has a native Linux port. |
 | FINAL FANTASY VII  |  2.20.1 | GE-Proton10-32|   Need to launch the game exe directly. |
 | Firewatch | 2.20.1 | GE-Proton10-33 | Also has a native Linux port. |
+| Hatred | 2.22.0 | GE-Proton10-32 | |
+| Hellblade: Senua's Sacrifice | 2.22.0 | GE-Proton10-32 | |
 | Hollow Knight  | 2.20.1  | GE-Proton10-32 |   Also has a native Linux port. |
 | Metro 2033 Redux | 2.20.1 | GE-Proton10-33| |
 | Metro Last Light Redux | 2.20.1 | GE-Proton10-33||
