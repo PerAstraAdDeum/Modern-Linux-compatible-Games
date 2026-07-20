@@ -82,7 +82,10 @@ All of the following games were tested with `ia32_emulation=0` Kernel argument. 
 | Styx: Shards of Darkness | 2.20.1 | GE-Proton10-32 |  |
 | Svarog's Dream | 2.20.1  | GE-Proton10-32 |  |
 | Shadow of the Tomb Raider: Definitive Edition    | 2.20.1 | GE-Proton10-32 |  |
-| System Shock: Enhanced Edition | 2.20.1  | GE-Proton10-32 |  |
+| [Shadow Warrior (2013)](https://gog.com/game/shadow_warrior) | 2.22.0 | GE-Proton11-1 | The GOG release includes both a DirectX-9 as well as a DirextX-11 version of the game, for the former, there doesn't seem to be a 64bit binary available. The Direct-X-11 version does work flawlessly however, though it has to be manually selected in Heroic. |
+| [Shadow Warrior 2](https://gog.com/game/shadow_warrior_2) | 2.22.0 | GE-Proton11-1 | |
+| [System Shock](https://gog.com/game/system_shock) | 2.22.0 | GE-Proton11-1 | This is for the 2023 remake. For the 2015 remaster, see below.  |
+| [System Shock: Enhanced Edition](https://gog.com/game/system_shock_enhanced_edition) | 2.22.0 | GE-Proton11-1 |  |
 | Terraria | 2.20.1 | -- | Also has a native Linux port. Windows version is 32bit. |
 | The Elder Scrolls V: Skyrim Special Edition    | 2.20.1 | GE-Proton10-32 |   For mod management see [LOOT](https://flathub.org/en/apps/io.github.loot.loot). |
 | The Witcher 3: Wild Hunt - Complete Edition    | 2.20.1  | GE-Proton10-32 |   You may need to launch the game exe directly. |
