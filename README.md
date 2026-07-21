@@ -1,6 +1,12 @@
 # Games compatible with modern Linux
 
-A curated list of games that run on Linux and neither require 32-bit compatibility nor XWayland.
+<p float="left">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Wayland_Logo.svg/1280px-Wayland_Logo.svg.png" width="33%" />
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/64bitslogo.svg/1280px-64bitslogo.svg.png" width="33%" />
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Flatpak_Logo.svg/1280px-Flatpak_Logo.svg.png" width="33%" />
+</p>
+
+A curated list of games that can be run on Linux using tools available on Flatpak, and neither require 32-bit compatibility nor XWayland.
 
 ---
 
@@ -19,10 +25,21 @@ A curated list of games that run on Linux and neither require 32-bit compatibili
 ---
 
 ## Introduction
+The following is a curated list of new and old games that you're able to play on modern Linux without having to rely on deprecated or legacy dependencies like the [X.Org display server](https://en.wikipedia.org/wiki/X.Org_Server) or [32-bit software](https://en.wikipedia.org/wiki/32-bit_computing), using only software available as Flatpak.
 
-With the advent of DXVK, Proton and Gaming Distros like CachyOS and Bazzite, Gaming on Linux has reached an all-time-high.
+The games are organized as follows:
 
-This is a list of Windows games that you can play on Linux without the need for XWayland or 32-bit dependencies, using compatibility tools for Wine or engine recreations.
+1. **Modern Windows games**
+   
+   In most cases, games released in the last ~10 years were all build on the 64-bit instruction set. With the advent of DXVK, Proton and Gaming Distros like CachyOS and Bazzite, Gaming on Linux has made huge leaps, and most if not all of these games can be played via Wine (as long as they don't rely on specific anti-cheat implementations). Some of these may even have a native Linux release.
+3. **Classic Windows/DOS games**
+   
+   These are games for which there is no 64-bit binary. Almost all releases before 2010 fall into this category. These games are playable on modern systems through engine recreations, or, in case of even older DOS games, apps like DOSBox.
+5. **Linux-native games**
+   
+   These are games, modern or older, that are either cross-platform or Linux-only.
+
+
 
 ## Playing Windows Games with Wine
 
@@ -34,15 +51,17 @@ All of the following games were tested with `ia32_emulation=0` Kernel argument. 
 
 | Game Name   |  Launcher version | Proton version |  Comment | 
 | -------------  | ------------- | ------------- |  ------------- |
-| A Plague Tale: Innocence | 2.22.0 | GE-Proton10-32 | |
-| [Baldur's Gate: Enhanced Edition](https://gog.com/game/baldurs_gate_enhanced_edition) | 2.20.1 | GE-Proton10-33 | The game requires the installation of openal (winetricks), which itself won't install without 32bit being enabled. After installation, the game runs fine without 32bit. Also has a native Linux port. For playing the non-enhanced version, see [Playing Games with FOSS (engine) recreations](https://github.com/PerAstraAdDeum/Modern-Linux-compatible-Games/edit/main/README.md#playing-games-with-foss-engine-recreations)|
-| [Baldur's Gate II: Enhanced Edition](https://gog.com/game/baldurs_gate_2_enhanced_edition) | 2.20.1 | GE-Proton10-33 | The game requires the installation of openal (winetricks), which itself won't install without 32bit being enabled. After installation, the game runs fine without 32bit. Also has a native Linux port. For playing the non-enhanced version, see [Playing Games with FOSS (engine) recreations](https://github.com/PerAstraAdDeum/Modern-Linux-compatible-Games/edit/main/README.md#playing-games-with-foss-engine-recreations)|
+| [A Plague Tale: Innocence](https://gog.com/game/a_plague_tale_innocence) | 2.22.0 | GE-Proton11-1 | |
+| [Baldur's Gate: Enhanced Edition](https://gog.com/game/baldurs_gate_enhanced_edition) | 2.20.1 | GE-Proton10-33 | The game requires the installation of openal (winetricks), which itself won't install without 32bit being enabled. After installation, the game runs fine without 32bit. Also has a native Linux port. For playing the non-enhanced version, see [Playing Games with FOSS (engine) recreations](https://github.com/PerAstraAdDeum/Modern-Linux-compatible-Games/edit/main/README.md#playing-games-with-foss-engine-recreations).|
+| [Baldur's Gate II: Enhanced Edition](https://gog.com/game/baldurs_gate_2_enhanced_edition) | 2.20.1 | GE-Proton10-33 | The game requires the installation of openal (winetricks), which itself won't install without 32bit being enabled. After installation, the game runs fine without 32bit. Also has a native Linux port. For playing the non-enhanced version, see [Playing Games with FOSS (engine) recreations](https://github.com/PerAstraAdDeum/Modern-Linux-compatible-Games/edit/main/README.md#playing-games-with-foss-engine-recreations).|
 | Batman™: Arkham Knight    | 2.20.1  | GE-Proton10-32 |  |
 | Bulwark Evolution: Falconeer Chronicles   | 2.20.1  | GE-Proton10-32 |  |
 | Clair Obscur: Expedition 33 | 2.20.1 | GE-Proton10-33 | Upon first launch the game ask to install MS Visual C++. This will fail with 32bit being disabled, it is however possible to enable 32bit solely for this step; the game runs fine afterwards without 32bit.|
 | Control Ultimate Edition  | 2.20.1  | GE-Proton10-32 |  |
 | Cyberpunk 2077  | 2.20.1  | GE-Proton10-32 |  |
-| Crysis®    | 2.20.1  | GE-Proton10-32 |   Uses the C1-Launcher. Warhead and Wars work with it as well. |
+| [Crysis®](https://gog.com/game/crysis)    | 2.22.0  | GE-Proton11-1 |   As part of GOG's Preservation Program, Crysis now uses the open-source [C1-Launcher](https://github.com/ccomrade/c1-launcher), which includes new 64-bit binaries. 
+| [Crysis Warhead](https://gog.com/game/crysiswarhead) | 2.22.0  | GE-Proton11-1 | While the GOG release does not include the [C1-Launcher](https://github.com/ccomrade/c1-launcher), using it is recommended despite the game being able to run when manually selecting the 64-bit binary.
+| [Crysis Warhead](https://gog.com/game/crysiswarhead) | 2.22.0 | GE-Proton11-1 | Included in Crysis Warhead release. Unlike Crysis Warhead, this game launches without having to manually select the 64-bit binary. Using the [C1-Launcher](https://github.com/ccomrade/c1-launcher) is still recommended.
 | Crysis Remastered | 2.22.0 | GE-Proton10-32 | |
 | Crysis 2 Remastered | 2.22.0 | GE-Proton10-32 | |
 | Crysis 3 Remastered | 2.22.0 | GE-Proton10-32 | |
@@ -53,7 +72,8 @@ All of the following games were tested with `ia32_emulation=0` Kernel argument. 
 | Dorfromantik    | 2.20.1  | GE-Proton10-32 |  |
 | Dying Light: The following Enhanced Edition  |  2.20.1 | GE-Proton10-32 |  |
 | Everspace | 2.20.1 | GE-Proton10-33 | Also has a native Linux port. |
-| Factorio    | Heroic Games Launcher  | GE-Proton-Latest |  Also has a native Linux port. |
+| [Factorio](https://gog.com/game/factorio)    | 2.22.0  | GE-Proton11-1 |  Also has a native Linux port. Using the native Linux port [for better performance](https://github.com/abucnasty/factorio-benchmarks/tree/master/benchmarks/2026-01-25-linux-vs-windows#results) is recommended. |
+| [Factorio: Space Age](https://gog.com/game/factorio_space_age) | 2.22.0  | GE-Proton11-1 |  Also has a native Linux port. Using the native Linux port [for better performance](https://github.com/abucnasty/factorio-benchmarks/tree/master/benchmarks/2026-01-25-linux-vs-windows#results) is recommended. |
 | FINAL FANTASY VII  |  2.20.1 | GE-Proton10-32|   Need to launch the game exe directly. |
 | Firewatch | 2.20.1 | GE-Proton10-33 | Also has a native Linux port. |
 | Hatred | 2.22.0 | GE-Proton10-32 | |
@@ -121,7 +141,7 @@ All of the following were tested with Flathub on Fedora Atomic and meet the foll
 | ------------- | ------------- | -------------  | ------------- |
 | Caesar III | [Augustus](https://flathub.org/en/apps/com.github.keriew.augustus) | Wayland, DRI, Pipewire |  |
 | Commander Keen (various) | [Commander Genius](https://flathub.org/en/apps/io.sourceforge.clonekeenplus) | Wayland, DRI, Pipewire, (Network) | Network permission can be used to download various freely available episodes. |
-| Diablo | [DevilutionX](https://flathub.org/en/apps/org.diasurgical.DevilutionX) | Wayland, DRI, Pulseaudio, (Network) | Network permission is required for multiplayer only. Also works with the expansion, Hellfire. |
+| [Diablo](https://gog.com/game/diablo) | [DevilutionX](https://flathub.org/en/apps/org.diasurgical.DevilutionX) | Wayland, DRI, Pipewire, (Network) | Pipewire can be enabled by using the `SDL_AUDIODRIVER=pipewire` environment variable. Network permission is required for multiplayer only. Also works with the expansion, Hellfire. |
 | Doom | [Crispy Doom](https://flathub.org/en/apps/io.github.fabiangreffrath.Doom) | Wayland, DRI, Pipewire| |
 |  | [Odamex](https://flathub.org/en/apps/net.odamex.Odamex) | Wayland, DRI, Pipewire |  |
 | Doom II | [Odamex](https://flathub.org/en/apps/net.odamex.Odamex) | Wayland, DRI, Pipewire |  |
