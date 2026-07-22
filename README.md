@@ -153,6 +153,7 @@ All of the following were tested with Flathub on Fedora Atomic and meet the foll
 | Hexen: Beyond Heretic | [UZDoom](https://flathub.org/en/apps/org.zdoom.UZDoom) | Wayland, DRI, PulseAudio | |
 | Hexen II | [Hexen II: Hammer of Thyrion](https://flathub.org/en/apps/net.sourceforge.uhexen2.uhexen2) | Wayland, DRI, Pipewire, (Network)  | Network permission is required for multiplayer only. |
 | STAR WARS™ Dark Forces (Classic, 1995) | [The Force Engine](https://flathub.org/en/apps/io.github.theforceengine.tfe) | Wayland, DRI, Pipewire |  |
+| [STAR WARS™ Jedi Knight: Dark Forces II](https://gog.com/game/star_wars_jedi_knight_dark_forces_ii) | [OpenJKDF2](https://flathub.org/en/apps/org.openjkdf2.OpenJKDF2) | Wayland, DRI, PulseAudio, (Network) | Network permission is required for multiplayer only.  |
 | RollerCoaster Tycoon® 2: Triple Thrill Pack | [OpenRCT2](https://flathub.org/en/apps/io.openrct2.OpenRCT2) | Wayland, DRI, Pipewire, (Network) | Network permission is required for multiplayer only.  |
 | Theme Hospital | [CorsixTH](https://flathub.org/en/apps/com.corsixth.corsixth) | Wayland, DRI, Pipewire |  |
 | The Elder Scrolls III: Morrowind GOTY Edition | [OpenMW](https://flathub.org/en/apps/org.openmw.OpenMW) | Wayland, DRI, Pulseaudio  | For mod management see [LOOT](https://flathub.org/en/apps/io.github.loot.loot). |
